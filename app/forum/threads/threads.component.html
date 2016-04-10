@@ -1,0 +1,7 @@
+<ul class="threads">
+    <li *ngFor="#thread of threads"
+        [class.selected]="thread === navigationState.currentThread"
+        (click)="onSelect(thread)">
+        <span class="badge">{{thread.creator}}</span> {{thread.last_post_time}}
+    </li>
+</ul>
