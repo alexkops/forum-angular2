@@ -1,6 +1,6 @@
 Posts in thread
 <ul class="posts">
-    <li *ngFor="#post of posts"
+    <li *ngFor="let post of posts"
         [class.selected]="post === navigationState.currentPost"
         (click)="onSelect(post)">
         <span class="badge">{{post.name}}</span> {{post.title}}

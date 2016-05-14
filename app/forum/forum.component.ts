@@ -1,4 +1,4 @@
-import {Component} from 'angular2/core';
+import {Component} from '@angular/core';
 import {ThreadsComponent} from "./threads/threads.component";
 import {PostsComponent} from "./posts/posts.component";
 import {NavigationState} from "./navigation-state";

@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from 'angular2/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {NavigationState} from "../navigation-state";
 import {PostsService} from "../../services/posts.service";
 import {Post} from "../../models/post";

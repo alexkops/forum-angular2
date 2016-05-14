@@ -1,4 +1,4 @@
-import {Component, OnInit} from 'angular2/core';
+import {Component, OnInit} from '@angular/core';
 import {ThreadService} from "../../services/threads.service";
 import {Thread} from "../../models/thread";
 import {NavigationState} from "../navigation-state";
