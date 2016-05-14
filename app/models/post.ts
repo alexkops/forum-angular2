@@ -11,4 +11,5 @@ export class Post {
     rate_anz:number;
     rate_value:number;
     inreplyto:number;
+    thread_id: number;
 }

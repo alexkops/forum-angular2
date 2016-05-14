@@ -1,7 +1,5 @@
 <ul class="threads">
-    <li *ngFor="let thread of threads"
-        [class.selected]="thread === navigationState.currentThread"
-        (click)="onSelect(thread)">
-        <span class="badge">{{thread.creator}}</span> {{thread.last_post_time}}
+    <li *ngFor="let thread of threads">
+        <span class="badge" (click)="onSelect(thread)">{{thread.creator}}</span> {{thread.last_post_time}}
     </li>
 </ul>

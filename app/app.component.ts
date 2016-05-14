@@ -2,9 +2,7 @@ import {Component} from '@angular/core';
 import {ForumComponent} from './forum/forum.component'
 import {UsersComponent} from './users/users.component'
 import {RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from '@angular/router-deprecated';
-import {ThreadService} from "./services/threads.service";
-import {NavigationState} from "./forum/navigation-state";
-import {PostsService} from "./services/posts.service";
+import {ThreadsComponent} from "./forum/threads/threads.component";
 
 @Component({
     selector: 'app',
@@ -15,7 +13,7 @@ import {PostsService} from "./services/posts.service";
         </nav>
         <router-outlet></router-outlet>`,
     directives: [ROUTER_DIRECTIVES],
-    providers: [ROUTER_PROVIDERS, ThreadService, PostsService, NavigationState]
+    providers: [ROUTER_PROVIDERS]
 })
 @RouteConfig([
     {

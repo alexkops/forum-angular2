@@ -13,7 +13,8 @@ export var POSTS:Post[] = [
         "origmessage": "Test123",
         "rate_anz": 0,
         "rate_value": 0,
-        "inreplyto": null
+        "inreplyto": null,
+        "thread_id": 1
     },
     {
         "post_id": 10,
@@ -27,7 +28,8 @@ export var POSTS:Post[] = [
         "origmessage": "Test123 reply",
         "rate_anz": 0,
         "rate_value": 0,
-        "inreplyto": null
+        "inreplyto": null,
+        "thread_id": 1
     },
     {
         "post_id": 2,
@@ -41,7 +43,8 @@ export var POSTS:Post[] = [
         "origmessage": "Test345",
         "rate_anz": 0,
         "rate_value": 0,
-        "inreplyto": null
+        "inreplyto": null,
+        "thread_id": 2
     },
     {
         "post_id": 20,
@@ -55,6 +58,7 @@ export var POSTS:Post[] = [
         "origmessage": "Test345 reply",
         "rate_anz": 0,
         "rate_value": 0,
-        "inreplyto": null
+        "inreplyto": null,
+        "thread_id": 2
     }
 ]

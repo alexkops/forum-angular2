@@ -5,7 +5,7 @@ import {Post} from "../models/post";
 @Injectable()
 export class PostsService {
     getPosts(threadId:number):Promise<Post[]> {
-        return Promise.resolve(POSTS.filter(post => post.parent_id == threadId));
+        return Promise.resolve(POSTS.filter(post => post.thread_id == threadId));
     }
 
     getPost(postId:number):Promise<Post> {
