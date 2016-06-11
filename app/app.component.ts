@@ -6,12 +6,7 @@ import {ThreadsComponent} from "./forum/threads/threads.component";
 
 @Component({
     selector: 'app',
-    template: `<h1>Willkommen bei {{title}}</h1>
-        <nav>        
-          <a [routerLink]="['Forum']">Forum</a>
-          <a [routerLink]="['Users']">User</a>
-        </nav>
-        <router-outlet></router-outlet>`,
+    templateUrl: 'app/app.component.html',
     directives: [ROUTER_DIRECTIVES],
     providers: [ROUTER_PROVIDERS]
 })
