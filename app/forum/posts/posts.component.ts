@@ -25,6 +25,6 @@ export class PostsComponent {
     }
 
     onSelect(post:Post) {
-        this._navigationState.changePost(post.post_id)
+        this._navigationState.changePost(post.id)
     }
 }

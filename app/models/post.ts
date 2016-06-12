@@ -1,5 +1,5 @@
 export class Post {
-    post_id:number;
+    id:number;
     parent_id:number;
     level:number;
     time:number;
