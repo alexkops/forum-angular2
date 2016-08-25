@@ -1,8 +1,8 @@
-import {provideRouter, RouterConfig}  from '@angular/router';
+import {Routes, RouterModule} from '@angular/router';
 import {ForumComponent} from './forum/forum.component';
 import {UsersComponent} from './users/users.component'
 
-const routes: RouterConfig = [
+const appRoutes: Routes = [
     {
         path: '',
         redirectTo: '/forum',
@@ -18,6 +18,4 @@ const routes: RouterConfig = [
     }
 ];
 
-export const appRouterProviders = [
-    provideRouter(routes)
-];
+export const routing = RouterModule.forRoot(appRoutes);
